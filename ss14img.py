@@ -110,3 +110,17 @@ with open(output_file_powershell_colors, 'w', encoding='utf-8') as f:
         f.write(line + '\n')
 
 print(f'Цветной ASCII-арт с BBCode и цветами HEX сохранен в файл {output_file_bbcode}')
+
+# Открываем файл для чтения (замените 'file.txt' на путь к вашему файлу)
+with open(output_file_bbcode, 'r', encoding='utf-8') as file:
+    # Читаем содержимое файла в строку
+    text = file.read()
+
+# Считаем количество символов в строке
+character_count = len(text)
+
+# Выводим результат
+if character_count >= 5000:
+    print(f'Количество символов в файле: {character_count}. Может не вставиться в бумагу. Попробуй увеличить шакальство')
+else:
+    print(f'Количество символов в файле: {character_count}. Должно быть ок')
