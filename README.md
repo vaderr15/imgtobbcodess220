@@ -21,3 +21,6 @@
 - ?????
 - PROFIT!
 # Поздравляю. Вы легендарны!
+
+## Как это выглядит примерено
+<img  src="https://github.com/vaderr15/myimages/blob/main/O7wkG6LTu6U.jpg"/>
